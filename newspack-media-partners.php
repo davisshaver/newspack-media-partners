@@ -326,7 +326,7 @@ class Newspack_Media_Partners {
 						echo wp_kses_post(
 							sprintf(
 								/* translators: replaced with the name of the Media Partner, linked */
-								__( 'This story also appeared in %s', 'newspack-media-partners' ),
+								__( 'Published via %s', 'newspack-media-partners' ),
 								implode( esc_html__( ' and ', 'newspack-media-partners' ), $partner_names )
 							)
 						);
